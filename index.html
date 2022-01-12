@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/eslito.css">
+    <title>Projeto-FlexBox</title>
+    <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    }else{
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Projeto-FlexBox</div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mM_line"></div>
+                        <div class="mM_line"></div>
+                        <div class="mM_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">home</a></li>
+                        <li><a href="">sobre</a></li>
+                        <li><a href="">portfolio</a></li>
+                        <li><a href="">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Development</h1>
+                <h2>Technology and inovation</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Sobre</div>
+                    <div class="banner_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim dicta expedita asperiores 
+                    </div>
+                    <a href="#">Saiba mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Portfólio</div>
+                    <div class="banner_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim dicta expedita asperiores 
+                    </div>
+                    <a href="#">Saiba mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">
+                        Habilidades 
+                    </div>
+                    <div class="skill">
+                        Skills 
+                        <div> - </div>
+                        <div class="front">Front-end</div>
+                    </div>
+                    <div class="skill">
+                        Skills 
+                        <div> - </div>
+                        <div class="front">Back-end</div>
+                    </div>
+                    <div class="skill">
+                        Skills 
+                        <div> - </div>
+                        <div class="front">App-Mobile</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Conectando você ao mundo</div>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <div class="widget-body flex">
+                        <article>
+                            <div class="new-data">
+                                <div class="news-posted-at"> 05 outubro 2021</div>
+                                <div class="news-coments">2</div>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="imagem/001.png" alt="">
+                            </div>
+                            <div class="new-title">
+                                Tecnologia conectada a você!
+                            </div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit delectus eius inventore minima doloremque ut iusto repellendus, cum mollitia voluptas rem facilis quibusdam nesciunt vel, praesentium ullam explicabo dolor!
+                            </div>
+                            
+                        </article>
+
+                        <article>
+                            <div class="new-data">
+                                <div class="news-posted-at"> 05 outubro 2021</div>
+                                <div class="news-coments">2</div>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="imagem/002.jpg" alt="">
+                            </div>
+                            <div class="new-title">
+                               Você no mundo digital!
+                            </div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit delectus eius inventore minima doloremque ut iusto repellendus, cum mollitia voluptas rem facilis quibusdam nesciunt vel, praesentium ullam explicabo dolor!
+                            </div>
+                            
+                        </article>
+
+                        <article>
+                            <div class="new-data">
+                                <div class="news-posted-at"> 05 outubro 2021</div>
+                                <div class="news-coments">2</div>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="imagem/003.jpg" alt="">
+                            </div>
+                            <div class="new-title">
+                                Inovação e Desenvolvimento
+                            </div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit delectus eius inventore minima doloremque ut iusto repellendus, cum mollitia voluptas rem facilis quibusdam nesciunt vel, praesentium ullam explicabo dolor!
+                            </div>
+                            
+                        </article>
+
+                        <article>
+                            <div class="new-data">
+                                <div class="news-posted-at"> 05 outubro 2021</div>
+                                <div class="news-coments">2</div>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="imagem/001.png" alt="">
+                            </div>
+                            <div class="new-title">
+                                Tecnologia conectada a você!
+                            </div>
+                            <div class="news-resume">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae fugit delectus eius inventore minima doloremque ut iusto repellendus, cum mollitia voluptas rem facilis quibusdam nesciunt vel, praesentium ullam explicabo dolor!
+                            </div>
+                            
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+               <div class="widget">
+                   <div class="widget-title">
+                       <div class="widget-title-text">Linguagens & Frameworks</div>
+                       <div class="widget-title-bar"></div>
+                   </div>
+                   <div class="widget-body">
+                       <div class="quads">
+                           <div class="quad1"><p>PHP</p></div>
+                           <div class="quad2"><p>NODEJS</p></div>
+                           <div class="quad3"><p>REACT</p></div>
+                           <div class="quad4"><p>REACT-NATIVE</p></div>
+                           <div class="quad5"><p>FLUTTER</p></div>
+                           <div class="quad6"><p>VUEJS</p></div>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="widget">
+                <div class="widget-title">
+                    <div class="widget-title-text">Conheça um pouco sobre nos</div>
+                    <div class="widget-title-bar"></div>
+                </div>
+                <div class="widget-body">
+                    <div class="widget-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatem vitae facilis dolorum aperiam consectetur.
+                    </div>
+                    <div class="widget-info">
+                        <div class="tell">Tell: +55 14 997884525</div>
+                        <div class="email">E-mail: Technologyinnovation@gmail.com</div>
+                        <div class="social">Siga-nos no facebook: Technologyinnovation@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexColunm">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <h2>Desenvolvimento web</h2>
+                    
+                </div>
+                <div class="fm_2">
+                    <h2>Sistemas online ou Desktop</h2>
+                    
+                </div>
+                <div class="fm_3">
+                    <h2>Aplicativos Android & IOS</h2>
+                    
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaItem">
+                    <div class="widget-title">
+                        <div class=" footer_titulo">Contato</div>
+                        <div class="widget-title-bar footer_bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="widget-fone"> Tell: +55 14 9999-999</div>
+                        <div class="widget-Email">E-mail: Technologyinnovation@gmail.com</div>
+                    </div>
+                </div>
+                <div class="footer_areaItem">
+                    <div class="widget-title">
+                        <div class="widget-title-text footer_titulo">As tecnologias mais usadas no mercado</div>
+                        <div class="widget-title-bar footer_bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="widget-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatem vitae facilis dolorum aperiam consectetur.
+                        </div>
+                        <div class="widget-info">
+                            <div class="front">Skill Front-end:  React , Vue ,Angular</div>
+                            <div class="back">Skill Back-end:  Nodejs , PHP</div>
+                            <div class="mobile">Skill Mobile:   React Native , Flutter</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaItem">
+                    <div class="widget-title">
+                        <div class="widget-title-text footer_titulo">Redes Sociais</div>
+                        <div class="widget-title-bar footer_bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="widget-info">
+                            <div class="facebook">Facebook </div>
+                            <div class="instagram">Instagram</div>
+                            <div class="linkedin">LinkedIn</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy"> Todos os direitos Reservados!</div>
+        </div>
+    </footer>
+</body>
+</html>
